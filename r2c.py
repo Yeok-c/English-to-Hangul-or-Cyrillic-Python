@@ -8,7 +8,7 @@ var = Scope( JS_BUILTINS )
 set_global_object(var)
 
 # Code follows:
-var.registers(['cyrlat', 'car', 'performConversion'])
+var.registers(['car', 'performConversion', 'cyrlat'])
 @Js
 def PyJsHoisted_performConversion_(lat, this, arguments, var=var):
     var = Scope({'lat':lat, 'this':this, 'arguments':arguments}, var)
