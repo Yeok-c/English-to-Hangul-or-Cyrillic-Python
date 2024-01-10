@@ -25,7 +25,10 @@ from r2c import *
 print(r2c.performConversion("KANAYEVA Alua"))
 
 ## Output
-# 옿 대 한
-# КАНАЫЕВА Алуа
+# Kim Yeon-a    -> 김연아 
+# (ground truth == 김연아)
+
+# Garry Kimovich Kasparov -> Гарры Кимович Каспаров 
+#           (ground truth == Гарри Кимович Каспаров)
 
 ```
